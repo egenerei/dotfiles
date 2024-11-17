@@ -114,6 +114,7 @@ fi
 
 
 #shortcuts
+alias sb='source ~/.bashrc'
 alias ll='ls -la'
 alias ga='git add'
 alias gc='git commit'
