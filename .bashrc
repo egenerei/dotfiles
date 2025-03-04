@@ -112,6 +112,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#variables
+export EDITOR=nano
 
 #shortcuts
 alias sb='source ~/.bashrc'
@@ -132,3 +134,10 @@ alias h='history'
 alias c='clear'
 alias bb='/bin/bash'
 alias ap='ansible-playbook'
+#docker-compose
+alias dcu='docker-compose up -d --build'
+alias dcst='docker-compose stop'
+alias dcrm='docker-compose rm -f --stop'
+alias dcex='docker exec -it'
+alias dcd="docker compose down"
+
