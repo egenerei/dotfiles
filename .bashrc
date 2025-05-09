@@ -111,7 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 #variables
 export EDITOR=nano
 
@@ -140,4 +139,4 @@ alias dcst='docker-compose stop'
 alias dcrm='docker-compose rm -f --stop'
 alias dcex='docker exec -it'
 alias dcd="docker compose down"
-
+alias dcpa='docker ps -a'
